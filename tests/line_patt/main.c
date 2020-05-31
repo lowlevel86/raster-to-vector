@@ -116,7 +116,6 @@ int traceEdge(int W, int H, char (*raster)[W],
          
          checkBuff[lineInc-1] = 0;
          retCheckVal = checkPattEndBit(checkBuff, lineInc, pv->checkVal, &bitsAllowed);
-         //printf("%i) bitsAllowed %i | 0 given\n", i-1, bitsAllowed);
          
          // return if both functions disagree on the possible bit values
          if ((retCheckVal&BITS_MATCH) == FALSE)
@@ -140,7 +139,6 @@ int traceEdge(int W, int H, char (*raster)[W],
          
          checkBuff[lineInc-1] = 1;
          retCheckVal = checkPattEndBit(checkBuff, lineInc, pv->checkVal, &bitsAllowed);
-         //printf("%i) bitsAllowed %i | 1 given\n", i-1, bitsAllowed);
          
          // return if both functions disagree on the possible bit values
          if ((retCheckVal&BITS_MATCH) == FALSE)
