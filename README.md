@@ -3,9 +3,9 @@ A fast way to convert rasterized straight edges into vectors.
 
 ![](./imgs/01.png) ![](./imgs/02.png)
 
-If given the pixel pattern data of a line bit by bit, it is possible to determine if a line is straight or not without using loops or slow calculus functions.
+If given the pixel pattern data of a line bit by bit, it is possible to determine if a line is straight without using loops or slow calculus functions.
 
-This is demonstrated in "rastToVec.c".
+This is implemented in the "rastToVec.c" source code.
 
 In the "tests/line_patt" folder the output of the fast method is tested using the output of a different and more slower method.
 
