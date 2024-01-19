@@ -25,7 +25,3 @@ Applications:
 Todo List:
 * Write edge tracer code
 * Demonstrate raster to vector conversion
-
-[![](./imgs/cla-11-02-cla-c-certified-associate-programmer.png)](https://www.youracclaim.com/badges/279aeef9-4753-4e9a-afe1-882c03f52cd5/public_url)
-
-You can email me if you find any bugs.
